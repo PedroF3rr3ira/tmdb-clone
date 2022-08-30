@@ -1,0 +1,20 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+:root{
+    --headerBackground :rgb(3,37,65);
+    --tmdbLightBlue: rgb(1,180,228);
+    --darkerGreen: rgb(192,254,207);
+    --tmdbLightGreen: rgb(30,213,169);
+    --lightGrey: rgb(94, 94, 94);
+}
+button{
+    cursor:pointer;
+}
+html,button,input,textarea{
+    font-family: 'Poppins',sans-serif;
+    width:100vw;
+    overflow-x: hidden;
+}

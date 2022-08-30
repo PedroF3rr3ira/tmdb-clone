@@ -1,0 +1,41 @@
+.container-switcher{
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    padding:30px 40px;
+    h2{
+        text-transform: capitalize;
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
+    .options-box{
+        border:1px solid var(--headerBackground);
+        border-radius: 25px;
+        display:flex;
+        
+        div{
+            border-radius: 25px;
+            a{
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size:0.9rem;
+                padding: 1px 1rem;
+                font-weight: 500;
+                color:var(--headerBackground);
+            }
+
+    }
+    }
+
+    .isActive{
+        background:var(--headerBackground);
+        transition: .2s;
+        a{
+                background: #121FCF;
+                background: linear-gradient(to right, var(--darkerGreen) 25%, var(--tmdbLightGreen) 50%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+        }
+    }
+}
